@@ -1,7 +1,6 @@
 # Kim-Em-All Game Details
 A simple student's video game project.<br />
-<img src="https://unity3d.com/profiles/unity3d/themes/unity/images/mwu/logos/mwu-logo.png" width="128">
-_______________________________________
+
 ## Level design
 Prison courtyard.
 ## Bots/AI
@@ -32,3 +31,5 @@ Score, current weapon, ammo, active bonus, number of life (3).
 ![alt text](http://drive.google.com/uc?export=view&id=0BwOX68QsRQ7aSmlwcFZXTjZLXzg)
 ### Daymode
 ![alt text](http://drive.google.com/uc?export=view&id=0BwOX68QsRQ7aYUlfVlRpUnJkYW8)
+<br><br>
+<p align="center"><img width="128" src="https://unity3d.com/profiles/unity3d/themes/unity/images/mwu/logos/mwu-logo.png" /></p>
