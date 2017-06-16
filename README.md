@@ -1,6 +1,10 @@
 # Kim-Em-All Game Details
 A simple student's video game project.<br />
 
+# Gameplay video
+<a href="https://youtu.be/th7IP-hwKzM" target="_blank"><img src="http://www.hizliresimyukle.com/images/2017/03/08/youtube-logo-21.png" 
+alt="Click here to play video" width="180" height="180" border="10" /></a>
+
 ## Level design
 Prison courtyard.
 ## Bots/AI
