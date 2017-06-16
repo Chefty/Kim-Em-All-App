@@ -1,5 +1,6 @@
 # Kim-Em-All Game Details
 A simple student's video game project.<br />
+Development's duration: 3 weeks. <br /> 
 
 # Gameplay video
 <a href="https://youtu.be/th7IP-hwKzM" target="_blank"><img src="http://www.hizliresimyukle.com/images/2017/03/08/youtube-logo-21.png" 
