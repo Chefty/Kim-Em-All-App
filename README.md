@@ -3,7 +3,7 @@ A simple student's video game project.<br />
 Development's duration: 3 weeks. <br /> 
 
 # Gameplay video
-Click on the youtube logo to see gameplay video
+Click on the youtube logo to see gameplay video <br /> 
 <a href="https://youtu.be/th7IP-hwKzM" target="_blank"><img src="http://www.hizliresimyukle.com/images/2017/03/08/youtube-logo-21.png" 
 alt="Click here to play video" width="180" height="180" border="10" /></a>
 
