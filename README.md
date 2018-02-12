@@ -32,10 +32,10 @@ Score, current weapon, ammo, active bonus, number of life (3).
 - Visual Studio (C#)
 ## Screenshot
 ### Main menu
-![alt text](http://drive.google.com/uc?export=view&id=0BwOX68QsRQ7acDhPWXJNRHNTdVU)
+![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/main_menu.PNG)
 ### Nightmode
-![alt text](http://drive.google.com/uc?export=view&id=0BwOX68QsRQ7aSmlwcFZXTjZLXzg)
+![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/game_nighttime.png)
 ### Daymode
-![alt text](http://drive.google.com/uc?export=view&id=0BwOX68QsRQ7aYUlfVlRpUnJkYW8)
+![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/game_daytime.png)
 <br><br>
 <p align="center"><img width="128" src="https://unity3d.com/profiles/unity3d/themes/unity/images/mwu/logos/mwu-logo.png" /></p>
