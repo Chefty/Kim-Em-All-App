@@ -1,27 +1,16 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010182204660}
-  m_IsPrefabParent: 1
 --- !u!1 &1000010182204660
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4000011818229730}
-  - 114: {fileID: 114000012220295498}
-  - 114: {fileID: 114000011013345172}
-  - 114: {fileID: 114000010578800806}
+  - component: {fileID: 4000011818229730}
+  - component: {fileID: 114000012220295498}
+  - component: {fileID: 114000011013345172}
   m_Layer: 0
   m_Name: EnemyManager
   m_TagString: Untagged
@@ -31,38 +20,41 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4000011818229730
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000010182204660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010578800806
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012220295498
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000010182204660}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bf862ffeb7e74943a1729f1cff11eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 0}
-  enemy: {fileID: 1000011112823710, guid: c5cc55e74ac877543b314cc0f2bb8a23, type: 2}
-  spawnTime: 15
+  enemy: {fileID: 1000010757064230, guid: d6e3e8706aaeb0044acf093d927b3c8e, type: 3}
+  spawnTime: 10
   spawnPoints:
   - {fileID: 0}
 --- !u!114 &114000011013345172
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000010182204660}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -70,23 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 0}
-  enemy: {fileID: 1000012050409984, guid: 9e3eec268a0fce04280d8d7065972dfb, type: 2}
+  enemy: {fileID: 1000012050409984, guid: 9e3eec268a0fce04280d8d7065972dfb, type: 3}
   spawnTime: 8
-  spawnPoints:
-  - {fileID: 0}
---- !u!114 &114000012220295498
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010182204660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bf862ffeb7e74943a1729f1cff11eb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
-  enemy: {fileID: 1000010757064230, guid: d6e3e8706aaeb0044acf093d927b3c8e, type: 2}
-  spawnTime: 10
   spawnPoints:
   - {fileID: 0}

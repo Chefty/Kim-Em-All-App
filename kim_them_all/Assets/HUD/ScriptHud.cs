@@ -122,14 +122,14 @@ public class ScriptHud : MonoBehaviour
         return 0;
     }
 
-    public int handle_score(int plus)
+    public void handle_score(int plus)
     {
         score_int += plus;
         score_int = score_int * mult_int;
+        score_int = Mathf.Abs(score_int);
         mult_int = 1;
         mult_text.text = "x" + mult_int.ToString();
         score_text.text = score_int.ToString();
-        return 0;
     }
 
     /* public int handle_ammo()
@@ -156,6 +156,7 @@ public class ScriptHud : MonoBehaviour
             life_int = life_int - minus;
         if (life_int <= 0)
         {
+
             PlayerPrefs.SetInt("HighScore", score_int);
             PlayerPrefs.SetString("SceneName", SceneManager.GetActiveScene().name);
             if (NiceSceneTransition.instance != null)

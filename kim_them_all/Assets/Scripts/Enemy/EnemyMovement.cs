@@ -5,6 +5,7 @@ namespace CompleteProject
 {
     public class EnemyMovement : MonoBehaviour
     {
+        Vector3 originPosition;
         Transform player;               // Reference to the player's position.
         PlayerHealth playerHealth;      // Reference to the player's health.
         EnemyHealth enemyHealth;        // Reference to this enemy's health.
@@ -17,6 +18,7 @@ namespace CompleteProject
             playerHealth = player.GetComponent <PlayerHealth> ();
             enemyHealth = GetComponent <EnemyHealth> ();
             nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
+            originPosition = this.transform.position;
         }
 
 
@@ -29,11 +31,13 @@ namespace CompleteProject
                 nav.SetDestination (player.position);
             }
             // Otherwise...
+            else if (playerHealth.currentHealth <= 0 && enemyHealth.currentHealth > 0)
+            {
+                nav.SetDestination(originPosition);
+            }
             else
             {
-                // ... disable the nav mesh agent.
-                //nav.enabled = false;
-                
+                nav.enabled = false;
             }
             //play idle anim
         }

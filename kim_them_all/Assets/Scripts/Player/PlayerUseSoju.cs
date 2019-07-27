@@ -19,9 +19,10 @@ namespace CompleteProject
         public void UseSoju(ScriptHud hudDisplay)
         {
             player = GetComponent<PlayerHealth>();
-            if (GameObject.FindGameObjectWithTag("SojuAura") == null)
+            SojuAura = GameObject.FindGameObjectWithTag("SojuAura");
+            if (SojuAura == null)
             {
-                SojuAura = (GameObject)Instantiate(Resources.Load("SojuAura"), transform.position, transform.rotation);
+                SojuAura = (GameObject)Instantiate(Resources.Load("SojuAura"), transform.position + new Vector3(0, 1f, 0), transform.rotation);
                 SojuAura.transform.parent = GameObject.Find("Player").transform;
             }
             else

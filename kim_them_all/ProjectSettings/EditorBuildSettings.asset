@@ -7,9 +7,14 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-  - enabled: 1
-    path: Assets/Scenes/KimThemAll.unity
+    guid: 9c8fb63fd6db20846a75399d4bdb95ea
   - enabled: 1
     path: Assets/Scenes/KimThemAllDay.unity
+    guid: bdc5e88e13047254496f37321b3ebf90
+  - enabled: 1
+    path: Assets/Scenes/KimThemAll.unity
+    guid: 37635e2a7b9372641b0f55c380375c4e
   - enabled: 1
     path: Assets/Scenes/Death.unity
+    guid: 960f1ddf36cd4584f85f161e112503be
+  m_configObjects: {}

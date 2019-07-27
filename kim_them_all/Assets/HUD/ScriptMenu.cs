@@ -10,7 +10,6 @@ public class ScriptMenu : MonoBehaviour {
 
     public Button start;
     public Button quit;
-    public Button mapBtn;
 
     private string url;
 
@@ -26,7 +25,6 @@ public class ScriptMenu : MonoBehaviour {
 
         start = start.GetComponent<Button>();
         quit = quit.GetComponent<Button> ();
-        mapBtn = mapBtn.GetComponent<Button>();
 
 	}
 
@@ -57,7 +55,6 @@ public class ScriptMenu : MonoBehaviour {
         menuQuit.enabled = true;
         start.enabled = false;
         quit.enabled = false;
-        mapBtn.enabled = false;
     }
 
     public void onYesExit()
@@ -70,7 +67,6 @@ public class ScriptMenu : MonoBehaviour {
         menuQuit.enabled = false;
         start.enabled = true;
         quit.enabled = true;
-        mapBtn.enabled = true;
     }
 
     public void onStart()

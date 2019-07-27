@@ -103,6 +103,7 @@ namespace CompleteProject
             // Perform the raycast against gameobjects on the shootable layer and if it hits something...
             if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
             {
+                Debug.DrawRay(transform.position, transform.forward, Color.green);
                 // Try and find an EnemyHealth script on the gameobject hit.
                 EnemyHealth enemyHealth = shootHit.collider.GetComponent <EnemyHealth> ();
 

@@ -4,18 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Player
-  - Enemy
-  - Ground
-  - fire
-  - bullet
-  - InvisibleWall
-  - Orb
-  - Orb_box
-  - Soju
+  - Shootable
   - Bomb
+  - Enemy
+  - InvisibleWall
+  - Ground
+  - Orb
+  - bullet
+  - fire
+  - Orb_box
   - Turret_box
+  - Soju
   - Turret
+  - kimchi_box
   - SojuAura
   layers:
   - Default
@@ -26,11 +27,11 @@ TagManager:
   - UI
   - 
   - 
-  - Floor
+  - Lighting
+  - Ground
+  - Postprocessing
   - Shootable
-  - LightMask
-  - Invisible
-  - 
+  - PostProcessing
   - 
   - 
   - 
@@ -51,6 +52,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
