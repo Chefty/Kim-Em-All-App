@@ -4,8 +4,7 @@ Development's duration: 3 weeks. <br />
 
 # Gameplay video
 Click below for more. <br /> 
-<a href="https://youtu.be/th7IP-hwKzM" target="_blank"><img src="http://www.hizliresimyukle.com/images/2017/03/08/youtube-logo-21.png" 
-alt="Click here to play video" width="180" height="180" border="10" /></a>
+[Click here to play video](https://youtu.be/th7IP-hwKzM)
 
 ## Level design
 Prison courtyard.
@@ -37,5 +36,9 @@ Score, current weapon, ammo, active bonus, number of life (3).
 ![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/game_nighttime.png)
 ### Daymode
 ![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/game_daytime.png)
-<br><br>
-<p align="center"><img width="128" src="https://unity3d.com/profiles/unity3d/themes/unity/images/mwu/logos/mwu-logo.png" /></p>
+### Shooting
+![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/shooting.gif)
+### Catch bonus
+![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/bonus_grab.gif)
+### Use bonus
+![alt text](https://raw.githubusercontent.com/Chefty/Kim-Them-All/master/Screenshot/bonus_use.gif)
